@@ -126,30 +126,32 @@ header {
 .bannerText h2 {
   font-size: 3rem;
   font-weight: bold;
+  color: #4A4A4A;
+  font-family: "PT Sans Caption", sans-serif;
 }
 
 .bannerText p {
-  font-family: "Roboto", sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
   font-size: 1.7rem;
-  color: rgb(244, 235, 217);
+  color: #4A4A4A;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
 }
 
 .bannerText .btn {
-  font-family: "Roboto", sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
   padding: 0.5rem;
-  background-color: rgb(5, 142, 217);
-  color: rgb(244, 235, 217);
+  background-color: #4A4A4A;
+  color: #ffffff;
   text-align: center;
   margin-top: 1.5rem;
   width: 88%;
 }
 
 .bannerText .btn:hover {
-  background-color: rgb(3, 78, 119);
-  color: rgb(221, 213, 197);
-  transition: background-color 500ms linear,
+  background-color: #9C9C9C;
+  color: #ffffff;
+  transition: background-color 250ms linear,
     color 500ms linear;
 }
 
@@ -159,8 +161,11 @@ header {
   transition: none;
 }
 
+/* Informaton Section */
+
 .info {
-  background-color: rgb(110, 110, 110);
+  background-color: #ffffff;
+  display: flex;
 }
 
 .infoLeft {
@@ -168,10 +173,11 @@ header {
   height: auto;
   margin: 0rem 0rem 0rem 1.5rem;
   width: 61.5%;
-  border-right: 1px solid rgb(56, 56, 56);
+  border-right: 1px solid #D9D9D9;
   padding-right: 1.5rem;
   padding-bottom: 2rem;
   padding-top: 2rem;
+  display: flex;
 }
 
 .infoLeft img {
@@ -184,23 +190,31 @@ header {
   padding-bottom: 1.5rem;
   font-size: 2rem;
   font-weight: bold;
+  font-family: "PT Sans Caption", sans-serif;
+  color: #4A4A4A;
 }
 
 .infoLeft p {
-  font-family: "Roboto", sans-serif;
-  font-size: 0.75rem;
-  color: rgb(11, 11, 11);
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 0.85rem;
+  color: #4A4A4A;
 }
 
 .infoLeft .quote {
-  font-family: "Roboto", sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
   font-size: 1.2rem;
   padding-bottom: 2rem;
+  color: #4A4A4A;
+}
+
+#speaker {
+	font-weight: bold;
 }
 
 .infoRight {
   flex-direction: column;
   margin-top: 1rem;
+  display: flex;
 }
 
 .infoImg {
@@ -214,6 +228,10 @@ header {
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  border-bottom: 1px solid #D9D9D9;
 }
 
 .infoText {
@@ -222,30 +240,34 @@ header {
   flex-direction: column;
   line-height: 1.3;
   padding-top: 1rem;
+  display: flex;
+  position: relative;
 }
 .infoText h3 {
   font-size: 1.3rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
-  align-self
+  font-family: "PT Sans Caption", sans-serif;
+  color: #4A4A4A;
 }
 
 .infoText p {
-  font-family: "Roboto", sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
   margin-bottom: 1rem;
-  color: rgb(11, 11, 11);
+  color: #4A4A4A;
 }
 
 .infoText a {
-  font-family: "Roboto", sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
   color: rgb(0, 165, 255);
 }
 
 .infoText a:hover {
   transition: font-size 100ms ease-in;
   font-size: 1.1rem;
+  color: #ffffff;
 }
 
 .infoBox:hover {
-  background-color: rgb(56, 56, 56);
+  background-color: #D9D9D9;
 }
