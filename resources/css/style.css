@@ -161,7 +161,7 @@ header {
   transition: none;
 }
 
-/* Informaton Section */
+/* Course Info Section */
 
 .info {
   background-color: #ffffff;
@@ -270,4 +270,60 @@ header {
 
 .infoBox:hover {
   background-color: #D9D9D9;
+}
+
+/* Additional Info Styles */
+
+.courses {
+  background-color: #D9D9D9;
+  justify-content: center;
+}
+
+.course-info {
+  justify-content: space-between;;
+  width: 62.5rem;
+  flex-wrap: wrap;
+  padding-bottom: 1.5rem;
+  display: flex;
+}
+
+.courseHead {
+  font-size: 2rem;
+  padding: 2rem 0;
+  text-align: center;
+  background-color: #D9D9D9;
+  font-family: "PT Sans Caption", sans-serif; 
+  font-weight: bold;
+  color: #4A4A4A;
+}
+
+.courseBox {
+  width: 31.2%;
+  background-color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.courseBox img {
+  width: 100%;
+  height: auto%;
+}
+
+.courseBox h4 {
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1rem 1rem;
+  color: #4A4A4A;
+}
+
+.courseBox p {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 0.85rem;
+  color: #9C9C9C;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+}
+
+.courseBox .courseDesc {
+  padding-bottom: 1.5rem;
 }
