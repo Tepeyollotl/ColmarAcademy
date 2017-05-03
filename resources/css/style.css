@@ -164,7 +164,7 @@ header {
 /* Course Info Section */
 
 .info {
-  background-color: #ffffff;
+  background-color: #F4F6F6;
   display: flex;
 }
 
@@ -299,7 +299,7 @@ header {
 
 .courseBox {
   width: 31.2%;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   margin-bottom: 1rem;
 }
 
@@ -319,11 +319,42 @@ header {
 .courseBox p {
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 0.85rem;
-  color: #9C9C9C;
+  color: #777777;
   padding-left: 1rem;
   padding-top: 0.5rem;
 }
 
 .courseBox .courseDesc {
   padding-bottom: 1.5rem;
+}
+
+/* Thesis Section */
+
+.thesisHead {
+  font-size: 2rem;
+  padding-top: 2rem;
+  text-align: center;
+  background-color: #F4F6F6;
+  font-family: "PT Sans Caption", sans-serif; 
+  font-weight: bold;
+  color: #4A4A4A;
+}
+
+.thesis {
+  background-color: #F4F6F6;
+}
+
+.thesis .infoLeft {
+  border: none;
+  display: flex;
+}
+
+.thesis .infoLeft .quote {
+  padding-bottom: 0;
+  color: #777777;
+}
+
+.thesis .infoLeft video {
+  max-width: 100%;
+  height: auto;
 }
